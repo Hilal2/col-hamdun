@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.col-1{
+	width: 8.33%;
+	float: left;
+}
+
+.col-2{
+	width: 16.66%;
+	float: left;
+}
+
+.col-3{
+	width: 25%;
+	float: left;
+}
+
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-5{
+	width: 41.66%;	
+	float: left;
+}
+
+.col-6{
+	width: 50%;
+	float: left;
+}
+
+.col-7{
+	width: 58.33%;
+	float: left;
+}
+
+.col-8{
+	width: 66.66%;
+	float: left;
+}
+
+.col-9{
+	width: 75%;
+	float: left;
+}
+
+.col-10{
+	width: 83.33%;
+	float: left;
+}
+
+.col-11{
+	width: 91.66%;
+	float: left;
+}
+
+.col-12{
+	width: 100%;
+	float: left;
+	text-align: center;
+
+}
+.meet{
+	text-align: center;
+	font-size: 90px; 
+	color:#fff;
+	margin-top: -190px; 
+  
+
+}
+
+header .col-12{
+	background-color: #414141;
+	height:590px;
+	background-image: url(logo.png);
+	left: 100;
+	background-position: center;
+	padding-top: 200px;
+}
+
+.col-12 nav{
+	
+	margin: 0 5%;
+}
+hr{
+	color: black;
+	margin-top: 20px;
+	width:100%;
+	text-align: center;
+}
+
+.col-12 nav ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+
+.col-12 nav ul li{
+	float: left;
+}
+
+.col-12 nav ul li a{
+	margin: 5px;
+	padding: 10px 20px;
+	border-bottom: solid 3px black;
+	text-decoration: none;
+	color: #000;
+	font-size:20px;
+
+}
+
+.col-12 nav ul li a:hover{
+	background:#414141;
+	color:#fff;
+	transition: all .3s ease;
+
+}
+
+section .col-12{
+	display: flex;
+	justify-content: center;
+}
+.all{
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 100px;
+	color: black;
+}
+.naon{
+	margin-top: 70px;
+}
+section .col-12 .col-4{
+	margin: 7%;
+	background-color: #A9A9A9;
+	height: 250px;
+	background-image: url(vector.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+section .article-video{
+	clear: both;
+	margin: 5%;
+	position:relative;
+	top: 30px;
+}
+
+section .video .col-6{
+	background-color: #fff;
+	height: 300px;
+
+}
+
+section article .col-6 .col-3{
+
+	padding-top:5px;
+	height: 100px;
+	clear: both;
+}
+.col-3 img{
+	width: 100%;
+}
+
+section article .col-6 .col-9{
+	height: 100px;
+
+}
+.col-9 h1{
+	padding-left:10px;
+	padding-right: 10px;
+	margin-top: 0px;
+    text-align: justify;
+
+}
+
+footer{
+	width: 100%;
+	background-color: #000;
+	padding: 5px;
+	margin-top: 70px; 
+	height: 120px
+
+}
+footer ul li, a{
+	list-style: none;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	color:#fff;
+}
+
+.clearfix {
+	clear: both
+}
+.copyright{
+
+	float: right;
+}
